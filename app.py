@@ -24,7 +24,7 @@ app.layout = html.Div(children=[
 
     html.Div([dcc.Input(id="stock_name", type="text", placeholder="input stock name"
                        ,style={'width': '80%'}),
-              html.Button(id='submit',n_clicks=0,value='SEARCH',style={'width':'50px','height':'20px'})]
+              html.Button('Search', id='submit',n_clicks=0,value='SEARCH',style={'width':'60px','height':'22px'})]
               ,style={'textAlign':'center'}
              ),
     html.Div([dcc.RadioItems([
