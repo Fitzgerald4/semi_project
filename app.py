@@ -37,9 +37,9 @@ app.layout = html.Div(children=[
             "value": "m_avg",
         },
         {
-            "label": 'MUTY STOCK GRAGP',
-            "value": "multi",
-        }
+            "label": 'MULTI STOCK GRAPH', # 기존 'MUTY STOCK GRAGP', 
+            "value": "multi",             # MULTI STOCK GRASP / MULTI STOCK GRAPH 
+        }                                 # 둘중 어떤걸 하려하신지 몰라 그래프로 수정
     ],value="stock",id='radio', inline=True
      ,style={'margin':'10px','margin-left':'10%','width':'40%','color': 'white', 'font-size': 10,}
     ),
